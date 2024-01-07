@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 620px;
+  width: 100%;
+  position: fixed;
+  background-image: linear-gradient(
+    to left top,
+    #71a5f2,
+    #74b1f5,
+    #7bbdf7,
+    #86c7f8,
+    #93d2f9
+  );
+}
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  height: 40px;
+  width: 90%;
+  background-color: rgb(4, 107, 133);
+  position: relative;
+  margin-left: 60px;
+  top: 50px;
+}
+.container .Header h3 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+}
+
+.row {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 60px;
+  height: 400px;
+  width: 1230px;
+  /* background-color: #d6dfe6; */
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  height: 40px;
+  width: 90%;
+  background-color: rgb(4, 107, 133);
+  position: relative;
+  margin-left: 60px;
+  top: 30px;
+}
+h2{
+    color: aliceblue;
+}
+.aside {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  height: 400px;
+  width: 300px;
+  background-color: rgb(26, 207, 72);
+}
+.right {
+  
+  height: 400px;
+  width: 900px;
+  background-color: rgb(223, 141, 18);
+  margin-left: 40px;
+}
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aliceblue; */
+}
+.article h3{
+    text-align: end;
+}
+
+.mini-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 180px;
+  width: 220px;
+  background-color: rgb(219, 188, 9);
+}
+.mini-container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 180px;
+    width: 220px;
+    background-color: rgb(219, 188, 9);
+}
+.mini-container3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 180px;
+    width: 220px;
+    background-color: rgb(219, 188, 9);
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 180px;
+}
+
